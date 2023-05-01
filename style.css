@@ -36,11 +36,17 @@ P {
     width: 80%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 input {
     padding: 10px;
     border-radius: 5px;
+    width: 50%;
+}
+
+label {
+    width: 50%;
 }
 
 span {
@@ -55,7 +61,26 @@ h2 {
     color: #d60c3f;
 }
 
-@media only screen and (min-width:320px){
+@media only screen and (min-width:200px) {
+    .main-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .billing-box div {
+        margin: 20px 0px 20px 20px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .billing-box {
+        padding: 20px 0px;
+    }
+
+}
+
+@media only screen and (min-width:320px) {
     .main-container {
         width: 90%;
         margin: 0 auto;
