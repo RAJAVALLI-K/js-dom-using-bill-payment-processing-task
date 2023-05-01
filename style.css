@@ -43,14 +43,48 @@ input {
     border-radius: 5px;
 }
 
-span{
-    color:deeppink;
+span {
+    color: deeppink;
 }
 
 input:focus {
     outline: none;
 }
 
-h2{
+h2 {
     color: #d60c3f;
+}
+
+@media only screen and (min-width:320px){
+    .main-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .billing-box div {
+        margin: 20px 0px 20px 20px;
+        width: 87%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .billing-box {
+        padding: 20px 0px;
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+    .main-container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width:1024px) {
+    .main-container {
+        width: 40%;
+        margin: 0 auto;
+    }
 }
